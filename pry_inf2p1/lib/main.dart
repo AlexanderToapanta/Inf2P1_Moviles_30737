@@ -4,6 +4,7 @@ import 'vista/paginas/vistaSalarioProfesor.dart';
 import 'vista/paginas/vista_articulos_promocion.dart';
 import 'vista/paginas/vista_ventas.dart';
 import 'vista/paginas/vista_hamburguesas.dart';
+import 'vista/paginas/vista_conteo_cantidades.dart';
 
 void main() {
   runApp(const MiApp());
@@ -24,14 +25,7 @@ class MiApp extends StatelessWidget {
         // Rutas definidas en MenuEjercicios (Pendientes de implementación)
         '/ejercicio4.1': (context) => const VistaSalarioProfesor(),
         '/ejercicio4.2': (context) => const VistaHamburguesas(),
-        '/ejercicio4.3': (context) => Scaffold(
-          appBar: AppBar(
-            title: const Text('Ejercicio 4.3'),
-          ),
-          body: const Center(
-            child: Text('Ejercicio en construcción'),
-          ),
-        ),
+        '/ejercicio4.3': (context) => const VistaConteoCantidades(),
         '/ejercicio4.8': (context) => const VistaArticulosPromocion(),
       },
       theme: ThemeData(

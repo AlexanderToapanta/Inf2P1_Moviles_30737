@@ -26,7 +26,7 @@ class MenuEjercicios extends StatelessWidget {
         ),
         const SizedBox(height: 10),
         PrimaryButton(
-          text: 'Ejercicio 4.4',
+          text: 'Ejercicio 4.3',
           onPressed: () => Navigator.pushNamed(context, '/ejercicio4.3'),
         ),
         const SizedBox(height: 10),
